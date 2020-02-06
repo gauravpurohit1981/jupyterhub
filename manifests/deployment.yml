@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: gauravpurohitjupyterhub 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: gauravpurohitjupyterhub 
+    spec:
+      containers:
+        - name: gauravpurohitjupyterhub 
+          image: demoakskube.azurecr.io/gauravpurohitjupyterhub
+          ports:
+          - containerPort: 8000
