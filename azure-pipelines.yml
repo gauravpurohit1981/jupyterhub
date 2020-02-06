@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation - Docker Hub/ACR/...
-  dockerRegistryServiceConnection: '42f90701-a971-447e-b934-e43160439d5b'
+  #dockerRegistryServiceConnection: '42f90701-a971-447e-b934-e43160439d5b'
   imageRepository: 'jupyterhub'
   containerRegistry: 'demoakskube.azurecr.io'
   dockerfilePath: '**/Dockerfile'
